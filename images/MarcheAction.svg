@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1453 473" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-23856.4,-33870.8)">
+        <g id="Artboard4" transform="matrix(2.05,0,0,1.6,23856.4,33870.8)">
+            <rect x="0" y="0" width="708.661" height="295.276" style="fill:none;"/>
+            <g transform="matrix(1,0,0,1,-16.6734,7.83984)">
+                <g transform="matrix(2.51306,0,0,3.27571,-459.363,-349.598)">
+                    <g transform="matrix(1.04238,0,0,1,-3194.88,-919.156)">
+                        <rect x="3259.03" y="1038.65" width="44.536" height="59.824" style="fill:white;stroke:black;stroke-width:0.55px;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,0,6)">
+                        <g>
+                            <g transform="matrix(1,0,0,1,-3052.89,-922.535)">
+                                <circle cx="3278.36" cy="1071.94" r="20.772" style="fill:white;stroke:black;stroke-width:0.56px;"/>
+                            </g>
+                            <g transform="matrix(0.877333,0,0,0.877333,-2650.74,-791.044)">
+                                <circle cx="3278.36" cy="1071.94" r="20.772" style="fill:white;stroke:black;stroke-width:0.64px;"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g transform="matrix(0.18959,0,0,0.242913,-4521.77,-8029.32)">
+                    <g transform="matrix(101.882,0,0,101.882,24596.1,33403.5)">
+                    </g>
+                    <text x="24234.2px" y="33403.5px" style="font-family:'ArialNarrow', 'Arial', sans-serif;font-stretch:condensed;font-size:101.882px;">MARCHE</text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

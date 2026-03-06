@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1453 473" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-25592.6,-32714.2)">
+        <g id="Artboard4" transform="matrix(2.05,0,0,1.6,25592.6,32714.2)">
+            <rect x="0" y="0" width="708.661" height="295.276" style="fill:none;"/>
+            <g transform="matrix(2.11031,0,0,2.75074,-51056.7,-75393)">
+                <g transform="matrix(1.16895,0,0,1.16895,23973.2,27287.2)">
+                    <g transform="matrix(1.05934,0,0,1,-3250.53,-919.156)">
+                        <rect x="3259.03" y="1038.65" width="44.536" height="59.824" style="fill:white;stroke:rgb(13,13,13);stroke-width:0.56px;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,0,6)">
+                        <g>
+                            <g transform="matrix(1,0,0,1,-3052.89,-922.535)">
+                                <circle cx="3278.36" cy="1071.94" r="20.772" style="fill:white;stroke:rgb(13,13,13);stroke-width:0.57px;"/>
+                            </g>
+                            <g transform="matrix(0.866025,-0.491474,0.508674,0.866025,-45.7886,130.831)">
+                                <g transform="matrix(0.877333,0,0,0.877333,-2650.74,-791.044)">
+                                    <circle cx="3278.36" cy="1071.94" r="20.772" style="fill:white;stroke:rgb(13,13,13);stroke-width:0.65px;"/>
+                                </g>
+                                <g transform="matrix(0.272717,0,0,0.36291,-5448.09,-11806.6)">
+                                    <path d="M20814,32909.5L20814,32975.8C20814,32979 20810.4,32981.7 20806,32981.7C20801.5,32981.7 20797.9,32979 20797.9,32975.8L20797.9,32909.5C20797.9,32906.2 20801.5,32903.6 20806,32903.6C20810.4,32903.6 20814,32906.2 20814,32909.5Z" style="fill:none;stroke:rgb(13,13,13);stroke-width:0.51px;stroke-miterlimit:10;"/>
+                                </g>
+                                <g transform="matrix(0.112536,0,0,0.149754,-2115.37,-4791.2)">
+                                    <path d="M20814,32909.5L20814,32975.8C20814,32979 20810.4,32981.7 20806,32981.7C20801.5,32981.7 20797.9,32979 20797.9,32975.8L20797.9,32909.5C20797.9,32906.2 20801.5,32903.6 20806,32903.6C20810.4,32903.6 20814,32906.2 20814,32909.5Z" style="fill:rgb(13,13,13);"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g transform="matrix(1.13789,0,0,0.872966,24032.8,27316.6)">
+                    <g transform="matrix(0.0775015,0,0,0.0992988,-1720.07,-3172.94)">
+                        <g transform="matrix(101.882,0,0,101.882,24464.8,33403.5)">
+                        </g>
+                        <text x="24234.2px" y="33403.5px" style="font-family:'ArialNarrow', 'Arial', sans-serif;font-stretch:condensed;font-size:101.882px;">AUT<tspan x="24399.8px " y="33403.5px ">O</tspan></text>
+                    </g>
+                    <g transform="matrix(0.0775015,0,0,0.0992988,-1693.74,-3173.13)">
+                        <g transform="matrix(101.882,0,0,101.882,24443,33403.5)">
+                        </g>
+                        <text x="24234.2px" y="33403.5px" style="font-family:'ArialNarrow', 'Arial', sans-serif;font-stretch:condensed;font-size:101.882px;">MAIN</text>
+                    </g>
+                    <g transform="matrix(0.0775015,0,0,0.0992988,-1699.63,-3180.43)">
+                        <g transform="matrix(101.882,0,0,101.882,24280.7,33403.5)">
+                        </g>
+                        <text x="24234.2px" y="33403.5px" style="font-family:'ArialNarrow', 'Arial', sans-serif;font-stretch:condensed;font-size:101.882px;">0</text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

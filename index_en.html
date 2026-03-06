@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minidosa</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <link href="CSSMinidosa.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container-fluid mx-3">
+      <a class="navbar-brand" href="index.html">Minidosa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="Minidosa_INFORMATIONS_EN.html">Information</a></li>
+          <li class="nav-item"><a class="nav-link" href="Minidosa_INSTALLATION_EN.html">Setup</a></li>
+          <li class="nav-item"><a class="nav-link" href="Minidosa_UTILISATION_EN.html">Usage</a></li>
+          <li class="nav-item"><a class="nav-link" href="Minidosa_MAINTENANCE_EN.html">Maintenance</a></li>
+        </ul>
+        <ul class="navbar-nav mb-2 mb-lg-0 align-items-end"> 
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">FR</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index_en.html">EN</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+
+    <div class="row">
+
+      <div class="col-2"> <!-- Col de gauche pour le menu vertical-->
+
+       
+
+      </div> <!-- fin col de gauche-->
+
+      <div class="col-8 offset2"> <!-- Col de "droite" pour la partie contenu-->
+
+        <section>
+          <div class="row py-5">
+            <div class="col-12 col-md-6"> <img src="images/Minidosa_vue_ensemble_2.svg" class="w-100 h-100" alt=""> </div>
+          <div class="col-12 col-md-6">
+            <h1 class="my-5" id="Minidosa">Minidosa EX-1234</h1>
+            <p>Perfume conditioning system</p>
+            <p>RAVOUX AUTOMATISMES - Rue de l’industrie - ZI Vichy Rhue - 03300 CREUZIER LE VIEUX - Tél. 04.70.97.48.62</p>
+          </div>
+          </div>
+        </section>
+        
+      </div> <!-- Fin col contenu-->
+
+    </div> <!-- fin row-->
+  </div> <!-- fin container-->
+
+  <!-- début footer-->
+  <div class="container-fluid">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3 mt-5">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Download PDF</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">Updated on 03/02/2026</p>
+      <p class="text-center text-body-secondary">PABRYK Estelle and KLEIN Taö</p>
+    </footer>
+  </div>
+  <!-- fin footer-->
+
+  <!-- script JS pour background changeant pendant 1s au clic-->
+  <script>
+    document.querySelectorAll('.nav-pills .nav-link').forEach(a =>
+      a.onclick = () => {
+        a.classList.add('clicked');
+        setTimeout(() => a.classList.remove('clicked'), 1000);
+      }
+    );
+  </script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

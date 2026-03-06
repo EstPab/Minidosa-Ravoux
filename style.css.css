@@ -1,0 +1,52 @@
+h1 {margin-top: 2rem;
+	padding-top: 2rem;
+}
+h2 {margin-top: 2rem;
+	padding-top: 2rem;
+	font-weight: bold;
+}
+h3 {margin-top: 2rem;
+	padding-top: 1rem;
+}
+
+.container-fluid .row {
+    margin-bottom: 20px; /* ajuste la valeur */
+}
+
+.nav-pills .nav-link { color: #444; border-radius: 6px; }
+
+/* effet bg gris sur les pills au clic, avec un script JS dans le HTML*/
+.nav-pills .nav-link.clicked {
+    background-color: #e0e0e0;
+}
+
+/* Initialise le compteur principal */
+body {
+  counter-reset: h2counter;
+}
+
+/* Numérotation des h2 */
+h2 {
+  counter-increment: h2counter;
+  counter-reset: h3counter; /* Remet les h3 à 0 à chaque nouveau h2 */
+}
+
+h2::before {
+  content: counter(h2counter) ". ";
+}
+
+/* Numérotation des h3 */
+h3 {
+  counter-increment: h3counter;
+}
+
+h3::before {
+  content: counter(h2counter) "." counter(h3counter) " ";
+}
+
+.image-wrapper {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+

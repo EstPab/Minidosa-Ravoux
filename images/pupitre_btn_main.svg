@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 237 237" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-5331.26,-4023.43)">
+        <g id="Artboard4" transform="matrix(0.423111,0,0,0.354867,3043.79,2983.13)">
+            <rect x="5406.33" y="2931.52" width="558.295" height="665.659" style="fill:none;"/>
+            <g transform="matrix(8.71451,0,0,10.5706,3720.57,1685.08)">
+                <g transform="matrix(1,0,0,1,-3055.82,-919.156)">
+                    <rect x="3259.03" y="1038.65" width="44.536" height="59.824" style="fill:white;stroke:black;stroke-width:0.22px;"/>
+                </g>
+                <g transform="matrix(0.0754422,0,0,0.0741557,-1616.88,-2344.55)">
+                    <path d="M24321.7,33403.5L24321.7,33330.6L24333.5,33330.6L24347.7,33382.2L24350.6,33393C24351.3,33390.3 24352.3,33386.4 24353.7,33381.3L24368.1,33330.6L24378.7,33330.6L24378.7,33403.5L24371.1,33403.5L24371.1,33342.5L24353.7,33403.5L24346.6,33403.5L24329.3,33341.5L24329.3,33403.5L24321.7,33403.5Z" style="fill-rule:nonzero;"/>
+                    <path d="M24384.9,33403.5L24407.9,33330.6L24416.4,33330.6L24440.9,33403.5L24431.8,33403.5L24424.9,33381.4L24399.9,33381.4L24393.3,33403.5L24384.9,33403.5ZM24402.2,33373.6L24422.4,33373.6L24416.2,33353.4C24414.3,33347.2 24412.9,33342.1 24412,33338.2C24411.2,33342.9 24410.2,33347.6 24408.8,33352.2L24402.2,33373.6Z" style="fill-rule:nonzero;"/>
+                    <rect x="24448.7" y="33330.6" width="7.91" height="72.929" style="fill-rule:nonzero;"/>
+                    <path d="M24470.2,33403.5L24470.2,33330.6L24478.3,33330.6L24509.7,33388L24509.7,33330.6L24517.3,33330.6L24517.3,33403.5L24509.2,33403.5L24477.8,33346.1L24477.8,33403.5L24470.2,33403.5Z" style="fill-rule:nonzero;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,6)">
+                    <g>
+                        <g transform="matrix(1,0,0,1,-3052.89,-922.535)">
+                            <circle cx="3278.36" cy="1071.94" r="20.772" style="fill:white;stroke:black;stroke-width:0.22px;"/>
+                        </g>
+                        <g transform="matrix(0.877333,0,0,0.877333,-2650.74,-791.044)">
+                            <circle cx="3278.36" cy="1071.94" r="20.772" style="fill:white;stroke:black;stroke-width:0.26px;"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
