@@ -4,7 +4,7 @@
       <meta charset="UTF-8">
       <title>Maintenance</title>
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-      <link href="CSSMinidosa.css" rel="stylesheet">
+      <link href="style.css" rel="stylesheet">
    </head>
    <body>
       <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
@@ -15,6 +15,10 @@
                   <li class="nav-item"><a class="nav-link" href="Minidosa_UTILISATION_FR.html">Utilisation</a></li>
                   <li class="nav-item"><a class="nav-link" href="Minidosa_MAINTENANCE_FR.html">Maintenance</a></li>
                </ul>
+               <ul class="navbar-nav mb-2 mb-lg-0 align-items-end">
+                  <li class="nav-item"><a class="nav-link fw-bold" href="index.html">FR</a></li>
+                  <li class="nav-item"><a class="nav-link" href="index_EN.html">EN</a></li>
+               </ul>
             </div>
          </div>
       </nav>
@@ -22,39 +26,35 @@
          <div class="row">
             <div class="col-2">
                <div class="d-none d-md-block position-sticky mt-5" style="top: 100px;">
-                  <div class="nav flex-column nav-pills w-100" id="menu-utilisation"><a class="nav-link fw-bold" href="#">Maintenance préventive</a><a class="nav-link" href="#">Vidanger les tuyaux</a><a class="nav-link" href="#">Vidanger le réservoir</a><a class="nav-link" href="#">Nettoyer les tuyaux</a><a class="nav-link fw-bold" href="#">Identification des pannes</a><a class="nav-link fw-bold" href="#">Maintenance curative</a><a class="nav-link" href="#">Changer l’ampoule du bouton-voyant EN SERVICE</a><a class="nav-link" href="#">Changer l’ampoule du voyant DEFAUT</a><a class="nav-link fw-bold" href="#">Catalogue de pièces détachées</a></div>
+                  <div class="nav flex-column nav-pills w-100" id="menu-utilisation"><a class="nav-link fw-bold" href="#">Maintenance préventive</a><a class="nav-link" href="#">Vidanger les tuyaux</a><a class="nav-link" href="#">Vidanger le réservoir</a><a class="nav-link" href="#">Nettoyer les tuyaux</a><a class="nav-link fw-bold" href="#">Identification des pannes</a><a class="nav-link fw-bold" href="#">Maintenance curative</a><a class="nav-link" href="#">Changer l’ampoule du bouton-voyant
+                        EN SERVICE</a><a class="nav-link" href="#">Changer l’ampoule du voyant DEFAUT</a><a class="nav-link fw-bold" href="#">Catalogue de pièces détachées</a></div>
                </div>
             </div>
             <div class="col-10">
                <h1 class="mb-4">Maintenance</h1>
                <section class="mb-5">
-                  <p style="color: green;">DEBUG</p>
-                  
                   <h2>Maintenance préventive</h2>
                   
                   <section>
-                     
                      <h3>Vidanger les tuyaux</h3>
                      
                      <p class="text-secondary my-0">Le tuyau sous le réservoir doit être branché.</p>
                      
-                     <p class="text-secondary my-0">Le robinet doit être fermé.</p>
+                     <p class="text-secondary my-0">Le robinet sous le réservoir doit être fermé.</p>
                      
                      <ol>
-                        <li>Fermer le robinet sous le réservoir.</li>
                         <li>Placer un récipient sous le poste de remplissage.</li>
                         <li>Tourner le sélecteur AUTO / O / MAIN sur la position O.</li>
                         <li>Appuyer sur le bouton PURGE autant de fois que nécessaire.</li>
                      </ol>
                      <div class="d-flex flex-row">
-                        <div class="p-2 d-flex align-self-end"><img src="images/information.svg" class="w-100"></div>
-                        <p class="mb-0 text-secondary">Lorsque les tuyaux sont vides, aucun liquide ne rentre dans la
-                           seringue du poste de remplissage.</p>
+                        <div class="p-2 d-flex align-self-end"><img src="Images/information.svg" class="w-100"></div>
+                        <p class="mb-0 text-secondary">Lorsque les tuyaux sont vides, aucun liquide ne
+                           rentre dans la seringue du poste de remplissage.</p>
                      </div>
-                     </section>
+                  </section>
                   
                   <section>
-                     
                      <h3>Vidanger le réservoir</h3>
                      
                      <p class="text-secondary my-0">Les tuyaux doivent être vidangés, .</p>
@@ -64,13 +64,12 @@
                      <ol>
                         <li>Débrancher le tuyau sous le réservoir.</li>
                         <li>Placer un récipient sous le robinet du réservoir.</li>
-                        <li>Ouvrir le robinet sous le réservoir pour que le liquide coule
-                           dans le récipient.</li>
+                        <li>Ouvrir le robinet sous le réservoir pour que
+                           le liquide coule dans le récipient.</li>
                      </ol>
-                     </section>
+                  </section>
                   
                   <section>
-                     
                      <h3>Nettoyer les tuyaux</h3>
                      
                      <p class="text-secondary my-0">Les tuyaux doivent être vidangés, .</p>
@@ -79,107 +78,104 @@
                         <li>Alimenter le réservoir en eau claire.</li>
                         <li>Vider à nouveau les tuyaux ().</li>
                      </ol>
-                     </section>
-                  
-                  <p style="color: Yellow;">DEBUG</p>
+                  </section>
                </section>
                <section class="mb-5">
-                  <p style="color: green;">DEBUG</p>
-                  
                   <h2>Identification des pannes</h2>
                   
-                  <div class="table-responsive my-3">
-                     <table class="table table-sm align-middle" style="max-width: 60ch; word-wrap: break-word;">
+                  <div class="table-responsive">
+                     <table class="table">
                         
                         <tbody>
                            
                            <tr>
                               
-                              <td><strong>Panne</strong></td>
+                              <td style="width:15px">
+                                 <div class="d-block fw-bold">Panne</div>
+                              </td>
                               
-                              <td><strong>Source</strong></td>
+                              <td style="width:15px">
+                                 <div class="d-block fw-bold">Source</div>
+                              </td>
                               
-                              <td><strong>Solution</strong></td>
+                              <td style="width:15px">
+                                 <div class="d-block fw-bold">Solution</div>
+                              </td>
                               </tr>
                            
                            <tr>
                               
-                              <td>La production s’arrête sans
-                                 intervention de l’utilisateur</td>
+                              <td style="width:15px">La production s’arrête
+                                 sans intervention de l’utilisateur.</td>
                               
-                              <td>Bourrage de flacons sur le tapis de
-                                 sortie</td>
+                              <td style="width:15px">Bourrage de flacons sur le tapis de
+                                 sortie.</td>
                               
-                              <td>Prélever des flacons du tapis de sortie
-                                 (Voir)</td>
+                              <td style="width:15px">Prélever des flacons du tapis de sortie ().</td>
                               </tr>
                            
                            <tr>
                               
-                              <td>Aucun flacon sur le tapis d’entrée</td>
+                              <td style="width:15px">Aucun flacon sur le tapis d’entrée.</td>
                               
-                              <td>Alimenter le tapis d'entrée en flacons (Voir)</td>
+                              <td style="width:15px">Alimenter le tapis d'entrée en flacons ().</td>
                               </tr>
                            
                            <tr>
                               
-                              <td>La production ne s’arrête pas
-                                 quand il n’y a plus de flacons vides sur le tapis d’entrée</td>
+                              <td style="width:15px">La production ne
+                                 s’arrête pas quand il n’y a plus de flacons vides sur le tapis d’entrée.</td>
                               
-                              <td>Capteur optique sale</td>
+                              <td style="width:15px">Capteur optique sale.</td>
                               
-                              <td>Nettoyer le capteur optique</td>
+                              <td style="width:15px">Nettoyer le capteur optique.</td>
                               </tr>
                            
                            <tr>
                               
-                              <td>Capteur optique défaillant</td>
+                              <td style="width:15px">Capteur optique défaillant.</td>
                               
-                              <td>Changer le capteur optique</td>
+                              <td style="width:15px">Changer le capteur optique.</td>
                               </tr>
                            
                            <tr>
                               
-                              <td>La production ne s’arrête pas quand il y a
-                                 bourrage de flacons sur le tapis de sortie</td>
+                              <td style="width:15px">La production ne s’arrête pas quand
+                                 il y a bourrage de flacons sur le tapis de sortie.</td>
                               
-                              <td>Capteur capacitif défaillant</td>
+                              <td style="width:15px">Capteur capacitif défaillant.</td>
                               
-                              <td>Changer le capteur capacitif</td>
+                              <td style="width:15px">Changer le capteur capacitif.</td>
                               </tr>
                            
                            <tr>
                               
-                              <td>Le voyant EN SERVICE ne s’allume
-                                 pas</td>
+                              <td style="width:15px">Le voyant EN SERVICE ne s’allume
+                                 pas.</td>
                               
-                              <td>Ampoule défectueuse</td>
+                              <td style="width:15px">Ampoule défectueuse.</td>
                               
-                              <td>Changer l’ampoule ().</td>
+                              <td style="width:15px">Changer l’ampoule ().</td>
                               </tr>
                            
                            <tr>
                               
-                              <td>Le voyant DEFAUT ne s’allume pas</td>
+                              <td style="width:15px">Le voyant DEFAUT ne s’allume pas.</td>
                               
-                              <td>Ampoule défectueuse</td>
+                              <td style="width:15px">Ampoule défectueuse.</td>
                               
-                              <td>Changer l’ampoule ().</td>
+                              <td style="width:15px">Changer l’ampoule ().</td>
                               </tr>
                            </tbody>
-                        </table>
+                     </table>
                   </div>
-                  
-                  <p style="color: Yellow;">DEBUG</p>
                </section>
                <section class="mb-5">
-                  <p style="color: green;">DEBUG</p>
-                  
                   <h2>Maintenance curative</h2>
                   
                   <section>
-                     
-                     <h3>Changer l’ampoule du bouton-voyant EN SERVICE</h3>
+                     <h3>Changer l’ampoule du bouton-voyant
+                        EN SERVICE</h3>
                      
                      <p class="text-secondary my-0">La machine doit être hors tension.</p>
                      
@@ -187,27 +183,26 @@
                         <li>Dévisser le capuchon transparent;</li>
                         <li>Dévisser le capuchon coloré.</li>
                         <li>Appuyer et tourner un doigt posé sur l’ampoule pour la dévisser.</li>
-                        <li>Appuyer et tourner un doigt posé sur la nouvelle ampoule pour la
-                           visser.</li>
+                        <li>Appuyer et tourner un doigt posé sur la nouvelle ampoule
+                           pour la visser.</li>
                         <li>Visser le capuchon vert.</li>
                         <li>Visser le capuchon transparent.</li>
                      </ol>
-                     </section>
+                  </section>
                   
                   <div class="d-flex flex-row">
-                     <div class="p-2 d-flex align-self-end"><img src="images/information.svg" class="w-100"></div>
-                     <p class="mb-0 text-secondary">Un disque de plastique blanc est posé dans le capuchon
-                        coloré.</p>
+                     <div class="p-2 d-flex align-self-end"><img src="Images/information.svg" class="w-100"></div>
+                     <p class="mb-0 text-secondary">Un
+                        disque de plastique blanc est posé dans le capuchon coloré.</p>
                   </div>
                   
                   <div class="d-flex flex-row">
-                     <div class="p-2 d-flex align-self-end"><img src="images/information.svg" class="w-100"></div>
-                     <p class="mb-0 text-secondary">Les capuchons sont fragiles, visser avec
-                        précaution.</p>
+                     <div class="p-2 d-flex align-self-end"><img src="Images/information.svg" class="w-100"></div>
+                     <p class="mb-0 text-secondary">Les
+                        capuchons sont fragiles, visser avec précaution.</p>
                   </div>
                   
                   <section>
-                     
                      <h3>Changer l’ampoule du voyant DEFAUT</h3>
                      
                      <p class="text-secondary my-0">La machine doit être hors tension.</p>
@@ -219,82 +214,93 @@
                         <li>Visser le capuchon coloré.</li>
                      </ol>
                      <div class="d-flex flex-row">
-                        <div class="p-2 d-flex align-self-end"><img src="images/information.svg" class="w-100"></div>
-                        <p class="mb-0 text-secondary">Un disque de plastique blanc est posé dans le capuchon
-                           coloré.</p>
+                        <div class="p-2 d-flex align-self-end"><img src="Images/information.svg" class="w-100"></div>
+                        <p class="mb-0 text-secondary">Un
+                           disque de plastique blanc est posé dans le capuchon coloré.</p>
                      </div>
                      <div class="d-flex flex-row">
-                        <div class="p-2 d-flex align-self-end"><img src="images/information.svg" class="w-100"></div>
-                        <p class="mb-0 text-secondary">Les capuchons sont fragiles, visser avec
-                           précaution.</p>
+                        <div class="p-2 d-flex align-self-end"><img src="Images/information.svg" class="w-100"></div>
+                        <p class="mb-0 text-secondary">Les
+                           capuchons sont fragiles, visser avec précaution.</p>
                      </div>
-                     </section>
-                  
-                  <p style="color: Yellow;">DEBUG</p>
+                  </section>
                </section>
                <section class="mb-5">
-                  <p style="color: green;">DEBUG</p>
-                  
                   <h2>Catalogue de pièces détachées</h2>
                   
-                  <div class="table-responsive my-3">
-                     <table class="table table-sm align-middle" style="max-width: 60ch; word-wrap: break-word;">
+                  <div class="table-responsive">
+                     <table class="table">
                         
                         <tbody>
                            
                            <tr>
                               
-                              <td><img src="images/PiDe_btn_voyant_en_service.svg" class="img-fluid w-100"></td>
+                              <td style="width:15px"><img src="Images/PiDe_btn_voyant_en_service.svg" class="img-fluid" width="100%"></td>
                               
-                              <td><strong>Bouton-voyant EN
-                                    SERVICE</strong><span class="d-block">Ref
-                                    6348254</span></td>
+                              <td style="width:15px">
+                                 <div class="d-block fw-bold">Bouton-voyant
+                                    EN SERVICE</div>
+                                 <div class="d-block">Ref 6348254</div>
+                              </td>
                               </tr>
                            
                            <tr>
                               
-                              <td><img src="images/PiDe_btn_coup_de_poing_arret_urgence.svg" class="img-fluid w-100"></td>
+                              <td style="width:15px"><img src="Images/PiDe_btn_coup_de_poing_arret_urgence.svg" class="img-fluid" width="100%"></td>
                               
-                              <td><strong>Bouton coup de
-                                    poing ARRET D’URGENCE</strong><span class="d-block">Ref
-                                    6348254</span></td>
+                              <td style="width:15px">
+                                 <div class="d-block fw-bold">Bouton
+                                    coup de poing ARRET D’URGENCE</div>
+                                 <div class="d-block">Ref
+                                    6348254</div>
+                              </td>
                               </tr>
                            
                            <tr>
                               
-                              <td><img src="images/PiDe_ampoule.svg" class="img-fluid w-100"></td>
+                              <td style="width:15px"><img src="Images/PiDe_ampoule.svg" class="img-fluid" width="100%"></td>
                               
-                              <td><strong>Ampoule</strong><span class="d-block">Ref
-                                    6348254</span></td>
+                              <td style="width:15px">
+                                 <div class="d-block fw-bold">Ampoule</div>
+                                 <div class="d-block">Ref 6348254</div>
+                              </td>
                               </tr>
                            
                            <tr>
                               
-                              <td><img src="images/PiDe_moteur.svg" class="img-fluid w-100"></td>
+                              <td style="width:15px"><img src="Images/PiDe_moteur.svg" class="img-fluid" width="100%"></td>
                               
-                              <td><strong>Moteur</strong><span class="d-block">Ref
-                                    6348254</span></td>
+                              <td style="width:15px">
+                                 <div class="d-block fw-bold">Moteur</div>
+                                 <div class="d-block">Ref 6348254</div>
+                              </td>
                               </tr>
                            
                            <tr>
                               
-                              <td><img src="images/PiDe_capteur_optique.svg" class="img-fluid w-100"></td>
+                              <td style="width:15px"><img src="Images/PiDe_moteur.svg" class="img-fluid" width="100%"></td>
                               
-                              <td><strong>Capteur</strong><span class="d-block">Ref
-                                    6348254</span></td>
+                              <td style="width:15px">
+                                 <div class="d-block fw-bold">Capteur</div>
+                                 <div class="d-block">Ref 6348254</div>
+                              </td>
                               </tr>
                            
                            <tr>
                               
-                              <td><img src="images/PiDe_verin.svg" class="img-fluid w-100"></td>
+                              <td style="width:15px"><img src="Images/PiDe_verin.svg" class="img-fluid" width="100%"></td>
                               
-                              <td><strong>Vérin</strong><span class="d-block">Ref 6348254</span></td>
+                              <td style="width:15px">
+                                 <div class="d-block fw-bold">Vérin</div>
+                                 <div class="d-block">Ref 6348254</div>
+                              </td>
                               </tr>
                            </tbody>
-                        </table>
+                     </table>
                   </div>
                   
-                  <p>Pour toute information complémentaire concernant les composants ou la machine,</p>
+                  <p>Pour toute information complémentaire concernant les composants
+                     ou la machine,</p>
                   
                   <p>merci de contacter directement :</p>
                   
@@ -304,9 +310,7 @@
                   
                   <p>03300 CREUZIER LE VIEUX</p>
                   
-                  <p>Tél. 04.70.97.48.62</p>
-                  
-                  <p style="color: Yellow;">DEBUG</p>
+                  <p>Tel. +33 4 70 97 48 62</p>
                </section>
             </div>
          </div>
@@ -317,8 +321,8 @@
                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Télécharger le
                      guide au format PDF</a></li>
             </ul>
-            <p class="text-center text-body-secondary">Mis à jour le 03/02/2026</p>
-            <p class="text-center text-body-secondary">PABRYK Estelle et KLEIN Taö</p>
+            <p class="text-center text-body-secondary">Mis à jour le 13/03/2026</p>
+            <p class="text-center text-body-secondary">Estelle Pabryk et Taö Klein</p>
          </footer>
       </div><script> document.querySelectorAll('.nav-pills .nav-link').forEach(a => a.onclick = () => { a.classList.add('clicked'); setTimeout(() => a.classList.remove('clicked'), 1000); } ); </script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script></body>
 </html>
